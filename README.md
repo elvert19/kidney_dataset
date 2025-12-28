@@ -19,7 +19,7 @@ Normality Testing: Using the Shapiro-Wilk test, we confirmed the data is non-nor
 
 
 **
-2. Inferential Statistics & Hypothesis Testing**
+2. Inferential Statistics & Hypothesis Testing
 
 
 We moved beyond descriptions to find proven relationships between features
