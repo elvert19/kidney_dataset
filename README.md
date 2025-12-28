@@ -1,6 +1,8 @@
 Project Report: Chronic Kidney Disease Predictive Analytics
 Objective: To analyze renal biomarkers, identify significant clinical predictors, and develop a high-accuracy supervised learning system for CKD screening.
-_
+
+
+
 **1: Data Exploration & Statistical Profile**
 The initial phase focused on understanding the "shape" of the patient data.
 
