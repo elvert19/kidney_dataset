@@ -3,7 +3,7 @@ Objective: To analyze renal biomarkers, identify significant clinical predictors
 
 
 
-**1: Data Exploration & Statistical Profile**
+# 1: Data Exploration & Statistical Profile
 
 
 The initial phase focused on understanding the "shape" of the patient data.
@@ -34,7 +34,7 @@ III:_Post-hoc Analysis_: Using Kruskal-Wallis and subsequent post-hoc tests, we 
 
 
 
-**3. Supervised Learning Performance**
+# 3. Supervised Learning Performance 
 
 
 We trained three models to categorize patients as "Healthy" or "CKD."
@@ -58,7 +58,7 @@ MLP (Neural Net),99.9%,  0.0082,    1.00,         Excellent convergence via back
 
 
 
-**4. The "Stress Test" (Feature Ablation)**
+# 4. The "Stress Test" (Feature Ablation)
 To ensure the model wasn't just "reading the definition" of CKD (GFR < 60), we removed GFR, Creatinine, and BUN and re-trained the model using only lifestyle and comorbid factors (Age, Water Intake, Proteinuria, Diabetes, Hypertension).
 
 
@@ -71,7 +71,7 @@ Stress Test Recall: 1.00
 Conclusion: The model is an incredibly powerful Early Warning System. Even without expensive blood work, it can identify 100% of sick patients based solely on vitals and lifestyle history.
 
 
-**5. Technical Implementation & Deployment**
+# 5. Technical Implementation & Deployment
 
 The project concluded by transforming the code into a reusable tool.
 
@@ -82,7 +82,7 @@ Model Serialization: We used joblib to save the "Brain" of the model into a .pkl
 Inference Portal: We developed a function that allows a clinician to input 7 simple values and receive an instant risk assessment with a confidence percentage.
 
 
-**6. Real-World Conclusions**
+# 6. Real-World Conclusions
 Clinical Screening vs. Diagnosis: While GFR is the diagnostic gold standard, this project proves that Protein in Urine and Hypertension status are sufficient for a 98% accurate screening tool in resource-poor settings.
 
 
