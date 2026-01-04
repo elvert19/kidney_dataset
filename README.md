@@ -17,9 +17,8 @@ Clinical Meaning: Most patients in the dataset are healthy (high GFR), but a sig
 
 Normality Testing: Using the Shapiro-Wilk test, we confirmed the data is non-normal, necessitating the use of Non-Parametric statistical tests.
 
-**
-****
-2. Inferential Statistics & Hypothesis Testing******
+
+#  2. Inferential Statistics & Hypothesis Testing
 
 
 We moved beyond descriptions to find proven relationships between features
